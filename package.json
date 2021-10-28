@@ -1,0 +1,16 @@
+{
+  "name": "raw-body-ts-node12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:demurgos/raw-body-ts-node12.git",
+  "author": "Charles Samborski <demurgos@demurgos.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.0",
+    "raw-body": "^2.4.1",
+    "typescript": "^4.5.0-dev.20211028"
+  }
+}
